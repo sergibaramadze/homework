@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+header{
+    width: 100%;
+    height: 94px;
+    background-color: #000000;
+    padding: 12px 100px;
+}
+h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/music-note.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -9999999px;
+    float: left;
+    margin-right: 168px;
+}
+h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+header nav{
+    margin-top: 24px;
+}
+header li{
+    float: left;
+    margin-right: 20px;
+}
+header li a{
+    padding: 5px 10px;
+    color: #ffffff;
+    font-size: 18px;
+    position:relative;
+}
+
+main{
+    padding: 50px 0 100px 0;
+}
+.todayshits{
+    margin-left: 110px;
+}
+.todayshits h2{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.todayshits article{
+    width: 300px;
+    float: left;
+    margin-right: 138px;
+    margin-bottom: 22px;
+}
+.meore article{
+    margin-bottom: 50px;
+}
+.todayshits article section{
+    width: 100%;
+    height: 244px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url(../img/sound.png);
+    background-size: 25%;
+    background-repeat: repeat-x;
+    background-position-y: 58px;
+    padding: 146px 0 0 12px;
+
+}
+.todayshits article section h3{
+    margin-bottom: 14px;
+}
+.like{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/like.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0;
+    right: 0;
+    transition:.6s;
+}
+
+.goon{
+    color: #000000;
+}
+
+footer{
+    width: 100%;
+    padding: 28px 0 18px 0;
+    background-color: #000000;
+}
+
+.h1{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/music-note.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+footer ul{
+    text-align: center;
+}
+footer nav a{
+    color:#ffffff;
+}
+header li a::before{
+    content: " ";
+    width:0;
+    height:0;
+    position:absolute;
+    bottom: 0;
+    left:0;
+    transition: width 1s;
+}
+header li:hover a::before{
+    width:100%;
+    height:2px;
+    background-color: #ffffff;
+
+}
+.sideicon, .sideicon2{
+    position:fixed;
+    width:50px;
+    height:50px;
+    transition: 1s;
+    
+}
+.sideicon{
+    top:180px;
+    right:0;
+    background-image: url("../img/fb.png");
+    background-size: cover;
+}
+.sideicon2{
+    background-image: url("../img/instagram.png");
+    background-size: cover;
+    right:0;
+    top:230px;
+}
+.sideicons a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.sideicon:hover{
+    background-image: url("../img/facebook.png");
+}
+.sideicon2:hover{
+    background-image:url("../img/instagram2.png")
+}
+.fbimage:hover {
+    background: url(..img/music-note.png);
+}
+article section:hover{ 
+    box-shadow: 0 0 3px #000000;
+}
+.todayshits article section:hover .like{
+    background-image:url("../img/like2.png");
+}
+.todayshits:hover{
+    outline:none;
+}
+article p a:hover{
+    text-decoration:underline;
+}
