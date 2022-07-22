@@ -9,8 +9,7 @@
 body{
     background-image: url("../img/Rectangle\ 1.png");
     background-repeat: no-repeat;
-    background-size: 1400px 1024px;
-    background-position
+    background-size: cover;
 }
 header ul{
     display:flex;
